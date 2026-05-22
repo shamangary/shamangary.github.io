@@ -126,14 +126,6 @@
       padding-bottom: 0;
     }
 
-    .item {
-      margin-bottom: 18px;
-    }
-
-    .item:last-child {
-      margin-bottom: 0;
-    }
-
     .with-thumb {
       display: grid;
       grid-template-columns: 150px minmax(0, 1fr);
@@ -158,7 +150,6 @@
       white-space: nowrap;
     }
 
-    .item h3,
     .publication h3 {
       font-size: 18px;
       line-height: normal;
@@ -174,7 +165,6 @@
       text-decoration: underline;
     }
 
-    .item p,
     .publication p {
       color: var(--text);
       margin: 0;
@@ -269,33 +259,6 @@
     </header>
 
     <main>
-      <section aria-labelledby="highlights">
-        <h2 id="highlights">Highlights</h2>
-        <div class="section-body">
-          <article class="item with-thumb">
-            <img class="thumb" src="assets/thumbs/ase_3dscenes.jpg" alt="Aria Synthetic Environments scenes">
-            <div>
-              <h3>Large-scale data curation and synthesis</h3>
-              <p>Led senior scientists in synthetic multimodal data generation for spatial intelligence, contributing to the Aria Synthetic Environments dataset and SceneScript. [<a href="https://huggingface.co/datasets/projectaria/aria-synthetic-environments" rel="noopener">dataset</a>] [<a href="https://ai.meta.com/blog/scenescript-3d-scene-reconstruction-reality-labs-research/" rel="noopener">blog</a>] [<a href="https://eccv.ecva.net/virtual/2024/poster/200" rel="noopener">paper</a>]</p>
-            </div>
-          </article>
-          <article class="item with-thumb">
-            <img class="thumb" src="assets/thumbs/vibephysics_teaser.png" alt="VibePhysics simulation teaser">
-            <div>
-              <h3>CPU-runnable physical simulation for robotics</h3>
-              <p>Built a Blender-based robotics simulation library covering navigation, rigid-body physics, force interaction, masks, point clouds, and other labeling modalities. [<a href="https://github.com/mimiaigen/vibephysics" rel="noopener">code</a>]</p>
-            </div>
-          </article>
-          <article class="item with-thumb">
-            <img class="thumb" src="assets/thumbs/robinai_post.png" alt="Robin AI legal AI model article">
-            <div>
-              <h3>Regulated-domain post-training</h3>
-              <p>Led legal-domain LLM post-training and evaluation work with legal, product, engineering, Anthropic, and AWS collaborators; the post-trained model outperformed OpenAI o1-preview in the legal domain. [<a href="https://robinai.com/news-and-resources/news/robin-ai-and-anthropic-claude-3-5-sonnet-are-top-performing-legal-ai-models" rel="noopener">news</a>]</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
       <section aria-labelledby="publications">
         <h2 id="publications">Publications</h2>
         <div class="section-body">
@@ -305,6 +268,22 @@
               <h3>SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model</h3>
               <p class="authors">Armen Avetisyan, Christopher Xie, Henry Howard-Jenkins, <span class="me">Tsun-Yi Yang</span>, Samir Aroudj, Suvam Patra, Fuyang Zhang, Duncan Frost, Luke Holland, Campbell Orme, Jakob Engel, Edward Miller, Richard Newcombe, Vasileios Balntas</p>
               <p class="venue">ECCV 2024 [<a href="https://www.projectaria.com/scenescript/" rel="noopener">project</a>] [<a href="https://ai.meta.com/blog/scenescript-3d-scene-reconstruction-reality-labs-research/" rel="noopener">blog</a>] [<a href="https://arxiv.org/abs/2403.13064" rel="noopener">paper</a>]</p>
+            </div>
+          </article>
+          <article class="publication with-thumb">
+            <img class="thumb" src="assets/thumbs/vibephysics_teaser.png" alt="VibePhysics simulation teaser">
+            <div>
+              <h3>VibePhysics: CPU-Runnable Physical Simulation for Robotics</h3>
+              <p class="authors"><span class="me">Tsun-Yi Yang</span></p>
+              <p class="venue">MIMI AI [<a href="https://github.com/mimiaigen/vibephysics" rel="noopener">code</a>]</p>
+            </div>
+          </article>
+          <article class="publication with-thumb">
+            <img class="thumb" src="assets/thumbs/robinai_post.png" alt="Robin AI legal AI model article">
+            <div>
+              <h3>Regulated-Domain LLM Post-Training for Legal AI</h3>
+              <p class="authors"><span class="me">Tsun-Yi Yang</span></p>
+              <p class="venue">Robin AI [<a href="https://robinai.com/news-and-resources/news/robin-ai-and-anthropic-claude-3-5-sonnet-are-top-performing-legal-ai-models" rel="noopener">news</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
