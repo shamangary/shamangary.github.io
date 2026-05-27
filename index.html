@@ -130,7 +130,7 @@
       display: grid;
       grid-template-columns: 150px minmax(0, 1fr);
       gap: 16px;
-      align-items: start;
+      align-items: center;
     }
 
     .thumb {
@@ -184,12 +184,21 @@
       margin: 0;
     }
 
+    .venue strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
     .authors {
       margin: 0;
     }
 
     .summary {
       margin: 4px 0;
+    }
+
+    .summary strong {
+      font-weight: 700;
     }
 
     .compact-list {
@@ -280,7 +289,7 @@
             <div>
               <h3>SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model</h3>
               <p class="authors">Armen Avetisyan, Christopher Xie, Henry Howard-Jenkins, <span class="me">Tsun-Yi Yang</span>, Samir Aroudj, Suvam Patra, Fuyang Zhang, Duncan Frost, Luke Holland, Campbell Orme, Jakob Engel, Edward Miller, Richard Newcombe, Vasileios Balntas</p>
-              <p class="venue">ECCV 2024 [<a href="https://www.projectaria.com/scenescript/" rel="noopener">project</a>] [<a href="https://ai.meta.com/blog/scenescript-3d-scene-reconstruction-reality-labs-research/" rel="noopener">blog</a>] [<a href="https://arxiv.org/abs/2403.13064" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>ECCV</strong> 2024 [<a href="https://www.projectaria.com/scenescript/" rel="noopener">project</a>] [<a href="https://ai.meta.com/blog/scenescript-3d-scene-reconstruction-reality-labs-research/" rel="noopener">blog</a>] [<a href="https://arxiv.org/abs/2403.13064" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -295,6 +304,7 @@
             <img class="thumb" src="assets/thumbs/robinai_post.png" alt="Robin AI legal AI model article">
             <div>
               <h3>Regulated-Domain LLM Post-Training for Legal AI</h3>
+              <p class="summary">Tsun-Yi led cross domain teams including legal, product, and engineering along with collaboration with <strong>Anthropic</strong> and AWS team. Post-training outperforming <strong>OpenAI</strong> o1-preview in legal domain with extensive analysis. Efforts including RLHF, synthetic data, fine-tuning.</p>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Jack Savage, Kitty Boxall, Will Barnsley, Karolina Lukoszova, Carina Negreanu</p>
               <p class="venue">Robin AI, 2024 [<a href="https://robinai.com/news-and-resources/news/robin-ai-and-anthropic-claude-3-5-sonnet-are-top-performing-legal-ai-models" rel="noopener">news</a>] [<a href="assets/papers/robin-ai-legal-llm-post-training-2024.pdf" rel="noopener">pdf</a>]</p>
             </div>
@@ -304,7 +314,7 @@
             <div>
               <h3>OrienterNet: Visual Localization in 2D Public Maps with Neural Matching</h3>
               <p class="authors">Paul-Edouard Sarlin, Daniel DeTone, <span class="me">Tsun-Yi Yang</span>, Armen Avetisyan, Julian Straub, Tomasz Malisiewicz, Samuel Rota Bulo, Richard Newcombe, Peter Kontschieder, Vasileios Balntas</p>
-              <p class="venue">CVPR 2023 [<a href="https://psarlin.com/orienternet/" rel="noopener">project</a>] [<a href="https://arxiv.org/abs/2304.02009" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>CVPR</strong> 2023 [<a href="https://psarlin.com/orienternet/" rel="noopener">project</a>] [<a href="https://arxiv.org/abs/2304.02009" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -312,7 +322,7 @@
             <div>
               <h3>Nerfels: Renderable Neural Codes for Improved Camera Pose Estimation</h3>
               <p class="authors">Gil Avraham, Julian Straub, Tianwei Shen, <span class="me">Tsun-Yi Yang</span>, Hugo Germain, Chris Sweeney, Vasileios Balntas, David Novotny, Daniel DeTone, Richard Newcombe</p>
-              <p class="venue">CVPR Workshops 2022 [<a href="https://openaccess.thecvf.com/content/CVPR2022W/IMW/html/Avraham_Nerfels_Renderable_Neural_Codes_for_Improved_Camera_Pose_Estimation_CVPRW_2022_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>CVPR</strong> Workshops 2022 [<a href="https://openaccess.thecvf.com/content/CVPR2022W/IMW/html/Avraham_Nerfels_Renderable_Neural_Codes_for_Improved_Camera_Pose_Estimation_CVPRW_2022_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -320,7 +330,7 @@
             <div>
               <h3>NinjaDesc: Content-Concealing Visual Descriptors via Adversarial Learning</h3>
               <p class="authors">Tony Ng, Hyo Jin Kim, Vincent Lee, Daniel DeTone, <span class="me">Tsun-Yi Yang</span>, Tianwei Shen, Eddy Ilg, Vassileios Balntas, Krystian Mikolajczyk, Chris Sweeney</p>
-              <p class="venue">CVPR 2022 [<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Ng_NinjaDesc_Content-Concealing_Visual_Descriptors_via_Adversarial_Learning_CVPR_2022_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>CVPR</strong> 2022 [<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Ng_NinjaDesc_Content-Concealing_Visual_Descriptors_via_Adversarial_Learning_CVPR_2022_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -328,7 +338,7 @@
             <div>
               <h3>Implicit Map Augmentation for Relocalization</h3>
               <p class="authors">Yuxin Hou, Tianwei Shen, <span class="me">Tsun-Yi Yang</span>, Daniel DeTone, Hyo Jin Kim, Chris Sweeney, Richard Newcombe</p>
-              <p class="venue">ECCV Workshops 2022 [<a href="https://openreview.net/forum?id=F1do2yPdQg" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>ECCV</strong> Workshops 2022 [<a href="https://openreview.net/forum?id=F1do2yPdQg" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -344,7 +354,7 @@
             <div>
               <h3>FSA-Net: Learning Fine-Grained Structure Aggregation for Head Pose Estimation From a Single Image</h3>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Yi-Ting Chen, Yen-Yu Lin, Yung-Yu Chuang</p>
-              <p class="venue">CVPR 2019 [<a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Yang_FSA-Net_Learning_Fine-Grained_Structure_Aggregation_for_Head_Pose_Estimation_From_CVPR_2019_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>CVPR</strong> 2019 [<a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Yang_FSA-Net_Learning_Fine-Grained_Structure_Aggregation_for_Head_Pose_Estimation_From_CVPR_2019_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -352,7 +362,7 @@
             <div>
               <h3>DAME WEB: DynAmic MEan with Whitening Ensemble Binarization for Landmark Retrieval without Human Annotation</h3>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Duy-Kien Nguyen, Huub Heijnen, Vassileios Balntas</p>
-              <p class="venue">ICCV Workshops 2019 [<a href="https://openaccess.thecvf.com/content_ICCVW_2019/html/CEFRL/Yang_DAME_WEB_DynAmic_MEan_with_Whitening_Ensemble_Binarization_for_Landmark_ICCVW_2019_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>ICCV</strong> Workshops 2019 [<a href="https://openaccess.thecvf.com/content_ICCVW_2019/html/CEFRL/Yang_DAME_WEB_DynAmic_MEan_with_Whitening_Ensemble_Binarization_for_Landmark_ICCVW_2019_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -360,7 +370,7 @@
             <div>
               <h3>SSR-Net: A Compact Soft Stagewise Regression Network for Age Estimation</h3>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Yi-Hsuan Huang, Yen-Yu Lin, Pi-Cheng Hsiu, Yung-Yu Chuang</p>
-              <p class="venue">IJCAI 2018 [<a href="https://arxiv.org/abs/1710.04385" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>IJCAI</strong> 2018 [<a href="https://arxiv.org/abs/1710.04385" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -368,7 +378,7 @@
             <div>
               <h3>DeepCD: Learning Deep Complementary Descriptors for Patch Representations</h3>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Jo-Han Hsu, Yen-Yu Lin, Yung-Yu Chuang</p>
-              <p class="venue">ICCV 2017 [<a href="https://openaccess.thecvf.com/content_ICCV_2017/html/Yang_DeepCD_Learning_Deep_ICCV_2017_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>ICCV</strong> 2017 [<a href="https://openaccess.thecvf.com/content_ICCV_2017/html/Yang_DeepCD_Learning_Deep_ICCV_2017_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <article class="publication with-thumb">
@@ -376,10 +386,33 @@
             <div>
               <h3>Accumulated Stability Voting: A Robust Descriptor From Descriptors of Multiple Scales</h3>
               <p class="authors"><span class="me">Tsun-Yi Yang</span>, Yen-Yu Lin, Yung-Yu Chuang</p>
-              <p class="venue">CVPR 2016 [<a href="https://openaccess.thecvf.com/content_cvpr_2016/html/Yang_Accumulated_Stability_Voting_CVPR_2016_paper.html" rel="noopener">paper</a>]</p>
+              <p class="venue"><strong>CVPR</strong> 2016 [<a href="https://openaccess.thecvf.com/content_cvpr_2016/html/Yang_Accumulated_Stability_Voting_CVPR_2016_paper.html" rel="noopener">paper</a>]</p>
             </div>
           </article>
           <p class="meta">For the full publication list and citation counts, see <a href="https://scholar.google.com/citations?user=WhISCE4AAAAJ" rel="noopener">Google Scholar</a>.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="awards">
+        <h2 id="awards">Awards, Services, Grants</h2>
+        <div class="section-body">
+          <ul class="compact-list">
+            <li>2026, Neural Information Processing Systems (<strong>NeurIPS</strong>), Reviewer</li>
+            <li>2026, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Reviewer</li>
+            <li>2023, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Reviewer</li>
+            <li>2023, International Conference on Learning Representations (<strong>ICLR</strong>), Reviewer</li>
+            <li>2022, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Reviewer</li>
+            <li>2022, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Image Matching Workshop, Reviewer</li>
+            <li>2021, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Outstanding Reviewer</li>
+            <li>2021, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Image Matching Workshop, Reviewer</li>
+            <li>2021, IEEE / CVF International Conference on Computer Vision (<strong>ICCV</strong>), Reviewer</li>
+            <li>2020, Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>), Program Committee (PC)</li>
+            <li>2020, Neural Information Processing Systems (<strong>NeurIPS</strong>), Reviewer</li>
+            <li>2019, IEEE / CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), Outstanding Reviewer</li>
+            <li>2019, IEEE / CVF International Conference on Computer Vision (<strong>ICCV</strong>), Reviewer</li>
+            <li>2019, Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>), Reviewer</li>
+            <li>2018, Scholarship, Pan Wen Yuan Foundation</li>
+          </ul>
         </div>
       </section>
 
